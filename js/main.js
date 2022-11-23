@@ -7,3 +7,11 @@ burgerBtn.addEventListener('click', function(){
     burgerBtn.classList.toggle('active');
     body.classList.toggle('close');
 });
+
+
+// slick slider
+$('.carousel').slick({
+    slidesToShow: 4,
+    slidesToScroll: 1,
+    centerMode: true
+});

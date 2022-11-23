@@ -5,7 +5,12 @@
       <meta http-equiv="X-UA-Compatible" content="IE=edge">
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
       <title>FTL</title>
+      <link rel="stylesheet" type="text/css" href="js/libs/slick/slick/slick.css">
+	    <link rel="stylesheet" type="text/css" href="js/libs/slick/slick/slick-theme.css">
       <link rel="stylesheet" href="scss/main.css">
+      <script src="js/jquery-3.5.1.min.js" defer></script>
+      <script src="js/libs/slick/slick/slick.min.js" defer></script>
+	    <script src="js/main.js" defer></script>
    </head>
    <body>
       
@@ -63,12 +68,14 @@
                     <p class="text">
                       Explore audiobooks, ebooks, magazines, podcasts, and more.
                     </p>
-                    <a href="#" class="btn">
-                      Try It For Free
-                    </a>
-                    <p class="text footnote">
-                      Only $8.99/month after. Cancel anytime.
-                    </p>
+                    <div class="btn-block">
+                      <a href="#" class="btn">
+                        Try It For Free
+                      </a>
+                      <p class="text footnote">
+                        Only $8.99/month after. Cancel anytime.
+                      </p>
+                    </div>
                   </div>
                   <div class="img-block">
                     <picture>
@@ -79,9 +86,228 @@
                 </div>
               </div>
             </section>
-            <section class="second">
+            <section class="what-section">
               <div class="container">
-
+                <div class="row row-reverse">
+                  <div class="text-block">
+                    <h2 class="title-block">
+                      What is Scribd
+                    </h2>
+                    <p class="text">
+                      Scribd gives you instant access to ebooks, audiobooks, articles, podcasts, sheet music, and documents — all in one simple digital subscription.
+                    </p>
+                  </div>
+                  <div class="img-block">
+                    <picture>
+                      <source src="images/img-02.webp" type="image/webp">
+                      <img src="images/img-02.png" width="620" height="295" alt="img 02">
+                    </picture>
+                  </div>
+                </div>
+              </div>
+            </section>
+            <section class="subscription-section">
+              <div class="container">
+                <h2 class="title-block">
+                  All in one simple subscription
+                </h2>
+                <div class="row">
+                  <div class="column">
+                      <div class="column-ico">
+                        <i class="ico">
+                          <svg>
+                              <use xmlns="http://www.w3.org/2000/svg" xlink:href="images/symbol-defs.svg#ico-books"></use>
+                          </svg>
+                        </i>
+                      </div>
+                      <p class="column-text">
+                        Books
+                      </p>
+                  </div>
+                  <div class="column">
+                    <div class="column-ico">
+                      <i class="ico">
+                        <svg>
+                            <use xmlns="http://www.w3.org/2000/svg" xlink:href="images/symbol-defs.svg#ico-audio"></use>
+                        </svg>
+                      </i>
+                    </div>
+                    <p class="column-text">
+                      Audiobooks
+                    </p>
+                  </div>
+                  <div class="column">
+                    <div class="column-ico">
+                      <i class="ico">
+                        <svg>
+                            <use xmlns="http://www.w3.org/2000/svg" xlink:href="images/symbol-defs.svg#ico-music"></use>
+                        </svg>
+                      </i>
+                    </div>
+                    <p class="column-text">
+                      Magazines
+                    </p>
+                  </div>
+                  <div class="column">
+                    <div class="column-ico">
+                      <i class="ico">
+                        <svg>
+                            <use xmlns="http://www.w3.org/2000/svg" xlink:href="images/symbol-defs.svg#ico-podcast"></use>
+                        </svg>
+                      </i>
+                    </div>
+                    <p class="column-text">
+                      Podcasts
+                    </p>
+                  </div>
+                  <div class="column">
+                    <div class="column-ico">
+                      <i class="ico">
+                        <svg>
+                            <use xmlns="http://www.w3.org/2000/svg" xlink:href="images/symbol-defs.svg#ico-magazines"></use>
+                        </svg>
+                      </i>
+                    </div>
+                    <p class="column-text">
+                      Sheet music
+                    </p>
+                  </div>
+                  <div class="column">
+                    <div class="column-ico">
+                      <i class="ico">
+                        <svg>
+                            <use xmlns="http://www.w3.org/2000/svg" xlink:href="images/symbol-defs.svg#ico-documents"></use>
+                        </svg>
+                      </i>
+                    </div>
+                    <p class="column-text">
+                      Documents
+                    </p>
+                  </div>
+                </div>
+                <div class="btn-block">
+                  <a href="#" class="btn">
+                    Try It For Free
+                  </a>
+                  <p class="text footnote">
+                    Only $8.99/month after. Cancel anytime.
+                  </p>
+                </div>
+              </div>
+            </section>
+            <section class="free-section">
+              <div class="container">
+                <div class="row row-reverse">
+                  <div class="text-block">
+                    <div class="text-wrapper">
+                      <h2 class="title-block">
+                        Free with your Scribd subscription
+                      </h2>
+                      <p class="text">
+                        Enjoy music, movies, comics, kids books, and more at no extra cost. As a Scribd subscriber, you get full premium&nbsp;-&nbsp;level access to services for free from our partner companies.
+                      </p>
+                    </div>
+                    <div class="link-block">
+                      <a href="#" class="link">
+                        See all Perks
+                        <i class="ico arrow">
+                          <svg>
+                              <use xmlns="http://www.w3.org/2000/svg" xlink:href="images/symbol-defs.svg#ico-arrow"></use>
+                          </svg>
+                        </i>
+                      </a>
+                    </div>
+                  </div>
+                  <div class="img-block">
+                    <picture>
+                      <source src="images/img-03.webp" type="image/webp">
+                      <img src="images/img-03.png" width="620" height="444" alt="img 03">
+                    </picture>
+                  </div>
+                </div>
+              </div>
+            </section>
+            <section class="read-section">
+              <div class="container">
+                <div class="row">
+                  <div class="text-block">
+                    <div class="text-wrapper">
+                      <h2 class="title-block">
+                        Read Everywhere
+                      </h2>
+                      <p class="text">
+                        Use Scribd through any web browser, Android, or iOS device. Download into the apps for offline access, so whether you’re reading on the beach or on the airplane, you’ll always have access. Our apps allow you to preview the service, even without a subscription.
+                      </p>
+                    </div>
+                    <div class="link-block">
+                      <a href="#" class="img-link">
+                        <img src="images/app-store.png" width="140" height="42" alt="App store">
+                      </a>
+                      <a href="#" class="img-link">
+                        <img src="images/google-play.png" width="140" height="42" alt="Google play">
+                      </a>
+                    </div>
+                  </div>
+                  <div class="img-block">
+                    <picture>
+                      <source src="images/img-04.webp" type="image/webp">
+                      <img src="images/img-04.png" width="620" height="350" alt="img 04">
+                    </picture>
+                  </div>
+                </div>
+              </div>
+            </section>
+            <section class="slider-section">
+              <div class="container">
+                <h2 class="title-block">
+                  Bestsellers Are Waiting For You
+                </h2>
+                <div class="carousel">
+                  <div class="slide">
+                    <picture>
+                      <source src="images/img-09.webp" type="image/webp">
+                      <img src="images/img-09.png" width="300" height="457" alt="img 09">
+                    </picture>
+                  </div>
+                  <div class="slide">
+                    <picture>
+                      <source src="images/img-09.webp" type="image/webp">
+                      <img src="images/img-09.png" width="300" height="457" alt="img 09">
+                    </picture>
+                  </div>
+                  <div class="slide">
+                    <picture>
+                      <source src="images/img-09.webp" type="image/webp">
+                      <img src="images/img-09.png" width="300" height="457" alt="img 09">
+                    </picture>
+                  </div>
+                  <div class="slide">
+                    <picture>
+                      <source src="images/img-09.webp" type="image/webp">
+                      <img src="images/img-09.png" width="300" height="457" alt="img 09">
+                    </picture>
+                  </div>
+                  <div class="slide">
+                    <picture>
+                      <source src="images/img-09.webp" type="image/webp">
+                      <img src="images/img-09.png" width="300" height="457" alt="img 09">
+                    </picture>
+                  </div>
+                  <div class="slide">
+                    <picture>
+                      <source src="images/img-09.webp" type="image/webp">
+                      <img src="images/img-09.png" width="300" height="457" alt="img 09">
+                    </picture>
+                  </div>
+                </div>
+                <div class="btn-block">
+                  <a href="#" class="btn">
+                    Try It For Free
+                  </a>
+                  <p class="text footnote">
+                    Only $8.99/month after. Cancel anytime.
+                  </p>
+                </div>
               </div>
             </section>
          </main>
@@ -90,8 +316,6 @@
             footer
          </footer>
       </div>
-      
-   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-   <script src="js/main.js"></script>
+
    </body>
    </html>
