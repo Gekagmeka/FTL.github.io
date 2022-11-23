@@ -5,7 +5,7 @@ let body = document.querySelector('body');
 burgerBtn.addEventListener('click', function(){
     headerNav.classList.toggle('active');
     burgerBtn.classList.toggle('active');
-    body.classList.toggle('close');
+    body.classList.toggle('closed');
 });
 
 
@@ -13,5 +13,25 @@ burgerBtn.addEventListener('click', function(){
 $('.carousel').slick({
     slidesToShow: 4,
     slidesToScroll: 1,
-    centerMode: true
+    centerMode: true,
+    responsive: [
+        {
+            breakpoint: 769,
+            settings: {
+                slidesToShow: 3
+            }
+        },
+        {
+            breakpoint: 601,
+            settings: {
+                slidesToShow: 2
+            }
+        },
+        {
+            breakpoint: 415,
+            settings: {
+                slidesToShow: 1
+            }
+        },
+    ]
 });
