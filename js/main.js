@@ -8,6 +8,12 @@ burgerBtn.addEventListener('click', function(){
     body.classList.toggle('closed');
 });
 
+// lang-bar
+let basicLang = document.querySelector('.basic-lang');
+    basicLang.addEventListener('click', function(e){
+    e.preventDefault();
+    basicLang.classList.toggle('active');
+});
 
 // slick slider
 $('.carousel').slick({
